@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    width: 96px;
+    height: 40px;
+    top: 46px;
+    left: 1209px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    background: #19BCE4;
+    color: #FFFFFF;
+}
+
+.navbar {
+width: 95%;
+height: 120px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+align-items: center;
+}
+
+.navbar .links{
+    display: flex;
+    margin-left: 30%;
+    gap: 30px;
+}
+
+h3{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+}
+
+.navbar .btn{
+    width: 96px;
+    height: 40px;
+    top: 46px;
+    left: 1209px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    background: #19BCE4;
+}
+
+.hero{
+    width: 1440px;
+height: 700px;
+top: 130px;
+gap: 0px;
+opacity: 0px;
+
+    background: #0000008F;
+}
+
+.hero .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .title{
+    font-family: Rubik;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75.84px;
+    text-align: left;
+    color:  #FFFFFF;
+    margin-top: 200px;
+}
+
+.info .description{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 580px;
+    margin-top: 20px;
+
+}
+
+.hero .rectangle{
+    width: 1170px;
+    height: 118px;
+    margin-left: 5%;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+
+}
+
+.hero .rectangle{
+   display: flex;
+   justify-content: space-between;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.hero .rectangle .rectangles{
+    width: 260px;
+    height: 70px;
+    padding: 10px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .rectangle .rectangles h3{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: left;
+}
+
+.hero .rectangle .rectangles h1{
+    
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+    color: #222222;
+    margin-top: 10px;
+
+}
+.hero .rectangle .btn{
+    width: 259px;
+    height: 70px;
+    top: 596px;
+    left: 1022px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.hero .rectangle button{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+}

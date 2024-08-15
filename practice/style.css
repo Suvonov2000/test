@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+}
+
+.navbar .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar .nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.btn-generic{
+    border-radius: 4px;
+    padding: 14px 16px 14px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    background-color: #0E1734;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.title-generic{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.description-generic{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.hero{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.hero .left{
+    flex: 1;
+    padding-top: 215px;
+}
+
+.hero .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero .right .img-2{
+    margin-top: 213px;
+}
+
+.section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.section .left{
+    flex: 1;
+}
+
+.section .right{
+    flex: 1;
+}
+
+.rooms .rooms-wrapper .room .img{
+    width: 100%;
+    height: 100%;
+}
+
+.rooms{
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.rooms .info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rooms .info .title {
+    align-items: center;
+}
+.rooms .info .description{
+    align-items: center;
+    width: 40%;
+}
+
+.rooms .rooms-wrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.rooms .rooms-wrapper .room{
+    flex: 1;
+}
+.rooms .rooms-wrapper .room .title {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 36px;
+    text-align: center;
+    text-align: left;
+    margin-top: 32px;
+}
+.rooms .rooms-wrapper .room .description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 16px;
+}
+
