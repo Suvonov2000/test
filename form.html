@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Novell Servis Login</h1>
+    <form action="submit-form" method="POST">
+        <label for="username"> Username: </label>
+        <input id="username" type="text" name="username" maxlength="30" required>
+        <hr>
+        <label for="password"> Password:</label>
+        <input id="password" type="password" name="password" maxlength="30" required>
+        <hr>
+        <label for="city"> City of Employment:</label>
+        <input id="city" type="text" name="city" maxlength="50" required>
+        <hr>
+        <label for="web server">  Web server:</label>
+        <select id="web server" name="web server">
+            <option value="web server">Microsoft Web Server</option>
+            <option value=" web server">lLinux Web Server</option>
+            <option value="web server">Google Web server</option>
+        </select>
+        <hr>
+        <label>Please specify your role:</label><br/>
+        <input type="radio" id="Admin" name="role" value="Admin">
+        <label for="Admin">Admin</label><br/>
+        <input type="radio" id="Engineer" name="role" value="Engineer">
+        <label for="Engineer">Engineer</label><br/>
+        <input type="radio" id="manager" name="role" value="manager">
+        <label for="manager">Manager</label><br/>
+        <input type="radio" id="guest" name="role" value="guest">
+        <label for="guest">Guest</label>
+        <hr>
+        <label>Single Sign-on to the following:</label><br/>
+        <input type="checkbox" id="mail" name="sign-on" value="mail">
+        <label for="mail">Mail</label><br/>
+        <input type="checkbox" id="payroll" name="sign-on" value="rayroll">
+        <label for="payroll">Payroll</label><br/>
+        <input type="checkbox" id="self-service" name="sign-on" value="self-service">
+        <label for="self-service">Self-service</label><br/>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+        <hr>
+    </form>
+</body>
+</html>

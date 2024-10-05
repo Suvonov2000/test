@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 30vh;
+    background-image: url(./lexus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+}
